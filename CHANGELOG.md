@@ -12,3 +12,16 @@ Nothing published yet. `v0.0.1` will be the Phase A walking skeleton: it renders
 screen, reports `FrescoConnectInfo.isStub == true`, and exists to prove the delivery path — anonymous
 resolution, the export boundary, the cascade into RecipeEdit and KitchenOS, and the resource bundle —
 while the payload is deliberately trivial.
+
+## v0.0.1 — 2026-09-01
+
+| | |
+|---|---|
+| Checksum | `b3fc43cadc9c16d84d3bc8a432c7ef7a5b105c96f6e7256a018887022210d96a` |
+| Zipped | 272K |
+| Device slice | 688K |
+| Simulator slice | 656K |
+| Built with | Xcode 26.5 |
+| Pantry | 0.3.0 (built against) |
+| KitchenOS | 1.61.0 (built against) |
+| TCA | absent (compiled in) |
