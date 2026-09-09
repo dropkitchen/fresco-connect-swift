@@ -39,8 +39,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "FrescoConnectKit",
-      url: "https://github.com/dropkitchen/fresco-connect-swift/releases/download/v0.1.0/FrescoConnectKit.xcframework.zip",
-      checksum: "1322f3a2bbd963d6b06adf1e750efe7644f2a5dbd4ac3279908993e32c58d61d"
+      url: "https://github.com/dropkitchen/fresco-connect-swift/releases/download/v0.1.1/FrescoConnectKit.xcframework.zip",
+      checksum: "250582e5e0f1e1ab0d676e1cde72243a4f637a819039a8fe2afb47bc87b474de"
     ),
     .target(
       name: "FrescoConnectKitWrapper",

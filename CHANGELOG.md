@@ -38,3 +38,16 @@ while the payload is deliberately trivial.
 | Pantry | 0.3.0 (built against) |
 | KitchenOS | 2.0.0 (built against) |
 | TCA | absent (compiled in) |
+
+## v0.1.1 — 2026-09-09
+
+| | |
+|---|---|
+| Checksum | `250582e5e0f1e1ab0d676e1cde72243a4f637a819039a8fe2afb47bc87b474de` |
+| Zipped | 1.5M |
+| Device slice | 2.6M |
+| Simulator slice | 2.6M |
+| Built with | Xcode 26.5 |
+| Pantry | 0.3.0 (built against) |
+| KitchenOS | 2.0.0 (built against) |
+| TCA | absent (compiled in) |
