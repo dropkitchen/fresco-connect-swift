@@ -2,10 +2,7 @@
 
 Fresco Connect embeds the Fresco cooking experience in your app. One dependency, one import.
 
-> **Pre-release.** No version is published yet. This repository holds the manifest and the release
-> assets; the first tag will be `v0.0.1`, a **walking skeleton** that renders a placeholder screen
-> and opens no editor. `FrescoConnectInfo.isStub` is `true` in it, and will be `false` in the first
-> release that edits recipes.
+> **Available from v0.1.0 and later.** v0.0.1 was a walking skeleton; v0.1.0 introduced recipe editing.
 
 ## Requirements
 
@@ -34,7 +31,7 @@ targets: [
 ]
 ```
 
-The package is pre-1.0 (`0.x`), so under semver the **breaking boundary is the minor version** — use
+The package is pre-1.0 (`0.x`). **This package's compatibility policy is: breaking changes only happen in minor releases** — use
 `.upToNextMinor(from:)` to admit only patch releases and guard against breaking changes in minor upgrades.
 
 Nothing else is needed. The package brings the frameworks it depends on with it, and your app never
