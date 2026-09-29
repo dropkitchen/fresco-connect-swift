@@ -25,7 +25,7 @@ Add the package in Xcode (*File ▸ Add Package Dependencies…*) or in your own
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/dropkitchen/fresco-connect-swift", from: "1.0.0")
+    .package(url: "https://github.com/dropkitchen/fresco-connect-swift", .upToNextMinor(from: "0.2.0"))
 ],
 targets: [
     .target(name: "YourApp", dependencies: [
@@ -33,6 +33,9 @@ targets: [
     ])
 ]
 ```
+
+The package is pre-1.0 (`0.x`), so under semver the **breaking boundary is the minor version** — use
+`.upToNextMinor(from:)` to admit only patch releases and guard against breaking changes in minor upgrades.
 
 Nothing else is needed. The package brings the frameworks it depends on with it, and your app never
 names them.
