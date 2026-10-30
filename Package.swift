@@ -33,7 +33,7 @@ let package = Package(
     //
     // Ranges, not exact pins: a partner may depend on this package AND on fresco-recipe-edit-swift
     // directly, and SwiftPM fails a graph whose two paths to one identity disagree.
-    .package(url: "https://github.com/dropkitchen/fresco-recipe-edit-swift", "1.2.0" ..< "2.0.0"),
+    .package(url: "https://github.com/dropkitchen/fresco-recipe-edit-swift", "1.3.0" ..< "2.0.0"),
     // This range is not a free choice: it must be one the resolved RecipeEdit also accepts, so it
     // matches the KitchenOS range fresco-recipe-edit-swift declares. The two move together, never
     // one alone (spec §10).
@@ -42,8 +42,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "FrescoConnectKit",
-      url: "https://github.com/dropkitchen/fresco-connect-swift/releases/download/v1.2.0/FrescoConnectKit.xcframework.zip",
-      checksum: "c71640b1a01154616002854996c53c8dd024cb603096a4fec5e77dd730067549"
+      url: "https://github.com/dropkitchen/fresco-connect-swift/releases/download/v1.3.0/FrescoConnectKit.xcframework.zip",
+      checksum: "b58162db2ff0f6abd330fd7626f3256001d96addea980c75323b7af7abbfef82"
     ),
     .target(
       name: "FrescoConnectKitWrapper",
