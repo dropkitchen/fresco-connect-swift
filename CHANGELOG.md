@@ -156,3 +156,17 @@ SwiftPM does not special-case `0.x`: `from: "0.1.0"` admits `0.9.9`.
 | Pantry | 2.0.0 (built against) |
 | KitchenOS | 2.8.1 (built against) |
 | TCA | absent (compiled in) |
+
+## v1.5.0 — 2026-11-13
+
+| | |
+|---|---|
+| Checksum | `47c1ed2cb461852420ad33c458ec6170afdc1574222b71177db9083727c3b262` |
+| Zipped | 1.7M |
+| Device slice | 3.0M |
+| Simulator slice | 3.0M |
+| Built with | Xcode 27.2 |
+| Signed by | Apple Distribution: Adaptics Limited (RH9GNXSHK5) |
+| Pantry | 3.0.0 (built against) |
+| KitchenOS | 2.8.1 (built against) |
+| TCA | absent (compiled in) |
